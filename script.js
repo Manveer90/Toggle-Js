@@ -15,12 +15,14 @@ togglebg.addEventListener('click' , function(){
         password.style.background = 'white'
         box.style.border = '2px solid black'
         text.textContent = 'JavaScript Toggle Light Mode'
+        text.style.transition = '2s'
     }else{
        body.style.background = 'black'
         body.style.color = 'white'
         body.style.transition = '2s'
         box.style.border = '2px solid white'
         text.textContent = 'JavaScript Toggle Dark Mode'
+        text.style.transition = '2s'
     }
 })
 
